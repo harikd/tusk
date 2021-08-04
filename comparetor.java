@@ -12,6 +12,8 @@ public class MyComparator2 {
 		l.add(10);
 		l.add(25);
 		l.add(15);
+		l.add(30);
+		l.add(35);
 		System.out.println(l);
 		System.out.println("*****************************");
 		List<Integer> l2=l.stream().sorted().collect(Collectors.toList());
